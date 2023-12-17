@@ -12,6 +12,7 @@ body{
   background-color: #1E2837;
   display: flex;
   justify-content: center;
+  padding: 5px;
 }
 
 .nav-container {
@@ -23,16 +24,20 @@ body{
 
 .left{
   align-self: center;
+  flex-shrink: 0;
   font-size: 24px;
   color: #F9FAF8;
   font-weight: bold;
 }
 
 .right .nav {
+  padding: 0;
   display: flex;
+  justify-content: end;
   list-style: none;
   gap: 15px;
 }
+
 
 .right .nav a {
   text-decoration: none;
