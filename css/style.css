@@ -5,7 +5,6 @@
 body{
   font-family: Roboto;
   margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -51,7 +50,7 @@ body{
 }
 
 .hero-container {
-  gap: 10px;
+  gap: 14px;
   display:flex;
   width: 1000px;
   justify-content: space-between;
@@ -65,21 +64,38 @@ body{
   flex: auto;
 }
 
-
 .hero-image img {
   width: 450px;
-  flex: auto;
-  display: flex;
+  border-radius: 15px;
+  border: 2px solid #eee;
+  /* flex: auto; */
+}
+
+p {
+  margin: 0;
 }
 
 .hero-content .main-title {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
+  margin-bottom: 30px;
 }
 
 .hero-content .second-text {
-  font-size: 18px;
+  font-size: 20px;
   color: #E5E7EB;
   font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  background-color: #3882F6;
+  border: none;
+  color: #F9FAF8;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 18px;
 }
