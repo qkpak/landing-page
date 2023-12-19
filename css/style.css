@@ -8,97 +8,92 @@ body{
 }
 
 .header {
-  background-color: #1E2837;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column wrap;
   padding: 5px;
-  flex-wrap: wrap;
-  margin-bottom: 80px;
+  justify-content: center;
+  background-color: #1F2930;
+  margin-bottom: 50px;
+}
+
+.header-container {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
 }
 
 .nav-container {
-  width: 1000px;
   display: flex;
-  gap: 10px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
-  margin-bottom: 80px;
+  padding: 0 5px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
-.left{
-  align-self: center;
+.logo {
   font-size: 24px;
   color: #F9FAF8;
-  font-weight: bold;
 }
 
-.right .nav {
-  padding: 0;
+.nav-container ul {
   display: flex;
-  justify-content: end;
+  gap: 10px;
+  padding: 0;
   list-style: none;
-  gap: 15px;
 }
 
-
-.right .nav a {
+ul a {
+  font-size: 18px;
   text-decoration: none;
   color: #E5E7EB;
-  font-size: 18px;
 }
 
 .hero-container {
-  gap: 14px;
-  display:flex;
-  width: 1000px;
-  justify-content: space-between;
+  padding: 5px;
+  display: flex;
+  align-items: stretch;
   flex-wrap: wrap;
-  padding: 0 10px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+  gap: 10px;
 }
 
-.hero-container .hero-content {
-  width: 450px;
+.hero-content {
+  width: 400px;
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.second-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero-image {
+ display: flex;
+ flex-flow: row nowrap;
+ align-items: center;
 }
 
 .hero-image img {
   width: 450px;
-  border-radius: 15px;
-  border: 2px solid #eee;
-  /* flex: auto; */
-}
-
-p {
-  margin: 0;
-}
-
-.hero-content .main-title {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
-  margin-bottom: 30px;
-}
-
-.hero-content .second-text {
-  font-size: 20px;
-  color: #E5E7EB;
-  font-weight: normal;
-  margin-bottom: 30px;
-}
-
-.hero-content button {
-  background-color: #3882F6;
-  border: none;
-  color: #F9FAF8;
-  width: 150px;
-  height: 50px;
-  border-radius: 15px;
-  font-weight: bolder;
-  font-size: 18px;
 }
 
 .body {
@@ -129,6 +124,7 @@ p {
   color: #1F2930;
   font-weight: bolder;
   flex: auto;
+  text-align: center;
 }
 
 .info-image-container {
