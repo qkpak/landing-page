@@ -15,6 +15,7 @@ body{
   flex-direction: column wrap;
   padding: 5px;
   flex-wrap: wrap;
+  margin-bottom: 80px;
 }
 
 .nav-container {
@@ -98,4 +99,52 @@ p {
   border-radius: 15px;
   font-weight: bolder;
   font-size: 18px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column wrap;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.info-container {
+  display: flex;
+  width: 1000px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+
+.info-container img {
+  width: 200px;
+}
+
+.info-container .info-title {
+  font-size: 36px;
+  color: #1F2930;
+  font-weight: bolder;
+  flex: auto;
+}
+
+.info-image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.img-container {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.img-container img {
+  border-radius: 15px;
+  border: 1px solid #000;
 }
