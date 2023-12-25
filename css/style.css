@@ -2,9 +2,17 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body{
   font-family: Roboto;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .header {
@@ -96,6 +104,10 @@ button{
 
 .hero-image img {
   width: 450px;
+}
+
+.body {
+  flex: 1;
 }
 
 .container {
@@ -208,7 +220,7 @@ button{
 }
 
 .footer {
-  /* display: flex; */
+  flex-shrink: 0;
   background-color: #1F2930;
   color: #E5E7EB;
   text-align: center;
