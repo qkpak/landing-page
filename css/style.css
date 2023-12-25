@@ -30,9 +30,11 @@ body{
   margin-bottom: 50px;
 }
 
-.logo {
+.logo a {
   font-size: 24px;
   color: #F9FAF8;
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .nav-container ul {
@@ -170,4 +172,37 @@ button{
 .quote .quote-maker {
   margin-left: auto;
   font-size: 20px;
+}
+
+.banner-container {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.banner {
+  display: flex;
+  width: 1000px;
+  padding: 50px 90px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: #3882F6;
+  color: #E5E7EB;
+}
+
+.banner-text .banner-title {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.banner-text .banner-desc {
+  font-size: 20px;
+}
+
+.banner .signup-btn {
+  border: 3px solid #E5E7EB;
 }
