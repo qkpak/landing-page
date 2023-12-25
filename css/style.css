@@ -206,3 +206,12 @@ button{
 .banner .signup-btn {
   border: 3px solid #E5E7EB;
 }
+
+.footer {
+  /* display: flex; */
+  background-color: #1F2930;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+}
